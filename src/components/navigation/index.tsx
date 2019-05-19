@@ -1,11 +1,12 @@
 import React from 'react';
+import NavigationDesktop from '../navigation-desktop';
 import styles from './index.module.css';
 
 const Navigation: React.FC = () => {
   return (
-    <div>
-
-    </div>
+    <nav>
+      <NavigationDesktop />
+    </nav>
   );
 }
 
