@@ -5,18 +5,25 @@
 }
 
 .list {
-  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-height: 0;
   width: 100%;
   top: 100px;
   left: 0;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.listVisible {
+  max-height: 1000px;
+  padding: 20px 0;
 }
 
 @media (min-width: 960px) {
