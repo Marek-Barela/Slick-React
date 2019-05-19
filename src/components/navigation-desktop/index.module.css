@@ -6,15 +6,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.8em;
 }
 
 .list li {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 .list a {
+  position: relative;
   display: block;
-  padding: 0 8px;
+  padding: 10px 0;
   color: inherit;
   text-decoration: none;
+}
+
+.list a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  height: 2px;
+  transition: all .3s;
+}
+
+.list a:hover::before {
+  width: 100%;
 }
