@@ -13,12 +13,19 @@ const TextContainer = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
         dolores ea fugiat nesciunt quisquam.
       </p>
-      <button className={btnStart}>
+      <a
+        href="https://uideck.com/products/slick-free-bootstrap-template/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={btnStart}
+      >
         Get Started
-      </button>
-      <button className={btnContact}>
+      </a>
+      <a
+        href="/#Contact"
+        className={btnContact}>
         Contact Us
-      </button>
+      </a>
     </div>
   )
 }

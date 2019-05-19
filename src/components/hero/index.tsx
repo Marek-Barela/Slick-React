@@ -21,7 +21,7 @@ const Hero = () => {
       <div className={wrapper}>
         <TextContainer />
         <div className={imageContainer}>
-          <img src={layerImg} />
+          <img src={layerImg} alt="" />
         </div>
       </div>
     </section>
