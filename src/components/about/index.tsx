@@ -5,7 +5,7 @@ import styles from './index.module.css';
 const About = () => {
   const { wrapper } = styles;
   return (
-    <section>
+    <section id="About">
       <div className={wrapper}>
         <AboutFeatures />
       </div>
