@@ -29,7 +29,7 @@ class Header extends PureComponent<{}, State> {
   handleScroll() {
     const scrollPossition = window.scrollY;
     const { scrolledNav } = this.state;
-    if (scrollPossition > 0) {
+    if (scrollPossition > 100) {
       // if state is already true don't set state again
       if (scrolledNav) return
       this.setState({
@@ -48,7 +48,7 @@ class Header extends PureComponent<{}, State> {
     const { scrolledNav } = this.state;
     const headerStyles = scrolledNav ? `${header} ${active}` : header;
     return (
-      <header id="Home" className={headerStyles}>
+      <header className={headerStyles}>
         <div className={wrapper}>
           <Logo />
           <Navigation />

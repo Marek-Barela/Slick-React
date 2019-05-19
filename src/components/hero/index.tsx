@@ -13,7 +13,7 @@ const Hero = () => {
     imageContainer
   } = styles;
   return (
-    <section className={hero}>
+    <section id="Home" className={hero}>
       <div className={overlay}>
         <span className={objectOne}></span>
         <span className={objectTwo}></span>
