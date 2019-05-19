@@ -1,11 +1,11 @@
 import React from 'react';
-import './index.css';
+import Layout from '../layout';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Layout>
+
+    </Layout>
   );
 }
 
