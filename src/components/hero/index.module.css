@@ -1,0 +1,74 @@
+.hero {
+  position: relative;
+  min-height: 600px;
+}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+  width: 100%;
+  min-height: 600px;
+  transform: skewY(-12deg);
+  transform-origin: 0;
+}
+
+.objectOne {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 230px;
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+}
+
+.objectTwo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+  height: 100px;
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1170px;
+  min-height: 600px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.imageContainer {
+  position: absolute;
+  width: 50%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.imageContainer img {
+  margin-top: 80px;
+  max-width: 100%;
+}
+
+@media (min-width: 900px) {
+  .hero {
+    min-height: 700px;
+  }
+  .overlay {
+    min-height: 700px;
+  }
+  .wrapper {
+    min-height: 700px;
+  }
+
+  .imageContainer {
+    position: initial;
+    width: 50%;
+    opacity: 1;
+    z-index: 0;
+  }
+}

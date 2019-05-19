@@ -52,6 +52,12 @@
   padding: 0;
   cursor: pointer;
   outline: 0;
+  box-shadow: 0 5px 5px 1px rgba(0,0,0,0.08);
+  transition: box-shadow 0.5s;
+}
+
+.list button:hover {
+  box-shadow: none;
 }
 
 .list button a {

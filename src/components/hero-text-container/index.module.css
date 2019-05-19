@@ -1,0 +1,121 @@
+.textContainer {
+  font-size: 0.7em;
+  margin-top: 40px;
+  color:#FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.textContainer h1 {
+  font-size: 1.4em;
+  margin-top: 0;
+  line-height: 30px;
+}
+
+.textContainer p {
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.textContainer a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 250px;
+  height: 45px;
+  padding: 15px;
+  margin: 20px 0 0 0;
+  border-radius: 5px;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnStart {
+  color: #FFFFFF;
+  background-color: #3ecf8e;
+}
+
+.btnStart:hover {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  transform: translateY(-5%);
+}
+
+.btnContact {
+  color: #3ecf8e;
+  background-color: #FFFFFF;
+}
+
+.btnContact:hover {
+  transform: translateY(-5%);
+}
+
+@media (min-width: 500px ) {
+  .textContainer {
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .textContainer h1 {
+    font-size: 2em;
+  }
+
+  .textContainer p {
+    line-height: 28px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .textContainer a {
+    margin: 20px 25px 0 0;
+    width: 150px;
+  }
+}
+
+@media (min-width: 900px ) {
+  .textContainer {
+    font-size: 0.75em;
+    width: 50%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .textContainer h1 {
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1050px ) {
+  .textContainer {
+    font-size: 0.85em;
+  }
+
+  .textContainer h1 {
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+
+  .textContainer a {
+    width: 180px;
+    height: 50px;
+    padding: 15px;
+  }
+}
