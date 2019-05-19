@@ -5,7 +5,7 @@ interface Props {
   text: string;
 }
 
-const NavigationDesktop: React.FC<Props> = ({ to, text }) => {
+const NavigationItem: React.FC<Props> = ({ to, text }) => {
   return (
     <li>
       <a href={to}>
@@ -15,4 +15,4 @@ const NavigationDesktop: React.FC<Props> = ({ to, text }) => {
   );
 }
 
-export default NavigationDesktop;
+export default NavigationItem;

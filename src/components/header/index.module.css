@@ -1,9 +1,9 @@
 .header {
-  background-color: #333333;
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
 }
 
 .wrapper {
-  height: 90px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,5 +1,6 @@
 import React from 'react';
 import NavigationElement from '../navigation-element';
+import NavigationButton from '../navigation-button';
 import styles from './index.module.css';
 
 const NavigationDesktop: React.FC = () => {
@@ -37,6 +38,9 @@ const NavigationDesktop: React.FC = () => {
       <NavigationElement
         to="/#Contact"
         text="Contact"
+      />
+      <NavigationButton
+        to="https://uideck.com/products/slick-free-bootstrap-template/"
       />
     </ul>
   );

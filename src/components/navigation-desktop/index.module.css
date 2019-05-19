@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   font-size: 0.8em;
+  font-weight: bold;
 }
 
 .list li {
@@ -34,4 +35,29 @@
 
 .list a:hover::before {
   width: 100%;
+}
+
+.list a:hover::before:last-child {
+  width: 0;
+}
+
+.list button {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  width: 131px;
+  height: 41px;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+  background-color: #7fc9fb;
+  padding: 0;
+}
+
+.list button a {
+  width: 100%;
+}
+
+.list button a::before {
+  content: none;
 }
