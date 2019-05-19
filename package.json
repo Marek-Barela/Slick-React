@@ -1,6 +1,6 @@
 {
-  "name": "boilerplate",
-  "version": "0.1.0",
+  "name": "slick",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.13",
