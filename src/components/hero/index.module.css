@@ -42,21 +42,6 @@
   z-index: 1;
 }
 
-.textContainer {
-  font-size: 0.85em;
-  color:#FFFFFF;
-  width: 50%;
-}
-
-.textContainer h1 {
-  margin-top: 0;
-  line-height: 60px;
-}
-
-.textContainer p {
-  line-height: 28px;
-}
-
 .imageContainer {
   width: 50%;
 }
