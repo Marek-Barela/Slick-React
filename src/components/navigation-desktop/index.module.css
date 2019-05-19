@@ -37,10 +37,6 @@
   width: 100%;
 }
 
-.list a:hover::before:last-child {
-  width: 0;
-}
-
 .list button {
   font-size: 0.9em;
   color: #FFFFFF;

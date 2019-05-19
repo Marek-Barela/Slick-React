@@ -1,5 +1,7 @@
 .header {
   background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+  position: fixed;
+  width: 100%;
 }
 
 .wrapper {
@@ -10,5 +12,11 @@
   align-items: center;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10%;
+}
+
+@media (min-width: 960px) {
+  .wrapper {
+    padding: 0 20px;
+  }
 }

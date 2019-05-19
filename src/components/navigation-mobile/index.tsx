@@ -30,7 +30,7 @@ class NavigationDesktop extends PureComponent {
           onClick={() => this.switchNavigation()}
           className={button}
         >
-          x
+          &#9776;
         </button>
         <ul className={listStyling}>
           <NavigationElement
