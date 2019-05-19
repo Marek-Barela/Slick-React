@@ -8,7 +8,7 @@ const NavigationButton: React.FC<Props> = ({ to }) => {
   return (
     <li>
       <button>
-        <a href={to} target="_blank">
+        <a href={to} target="_blank" rel="noopener noreferrer">
           Download
         </a>
       </button>

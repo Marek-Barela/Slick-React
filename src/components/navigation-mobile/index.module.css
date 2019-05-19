@@ -1,0 +1,29 @@
+.button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.list {
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media (min-width: 960px) {
+  .button {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+}
