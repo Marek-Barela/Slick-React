@@ -1,0 +1,36 @@
+.hero {
+  position: relative;
+  min-height: 700px;
+}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.objectOne {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 290px;
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+}
+
+.objectTwo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+  height: 100px;
+  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
