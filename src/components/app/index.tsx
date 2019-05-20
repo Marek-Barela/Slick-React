@@ -5,6 +5,7 @@ import About from "../about";
 import Services from "../services";
 import Pricing from "../pricing";
 import Team from "../team";
+import Blog from "../blog";
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Services />
       <Pricing />
       <Team />
+      <Blog />
     </Layout>
   );
 };

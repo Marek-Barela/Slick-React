@@ -1,0 +1,74 @@
+.wrapper {
+  width: 100%;
+  max-width: 355px;
+}
+
+.postWrapper {
+  margin: 15px;
+  border: 1px solid #cccccc;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.4s, border 0.4s, transform 0.4s;
+}
+
+.postWrapper:hover {
+  border: 1px solid #3ecf8e;
+  box-shadow: 0 0 25px 0 rgba(95, 95, 95, 0.44);
+  transform: translateY(-3%);
+}
+
+.postWrapper:hover h4 {
+  color: #3ecf8e;
+  transition: color 0.4s;
+}
+
+.imageWrapper {
+  width: 100%;
+}
+
+.imageWrapper img {
+  max-width: 100%;
+}
+
+.textWrapper {
+  font-size: 0.7em;
+  padding: 30px;
+}
+
+.textWrapper h4 {
+  font-size: 1.1em;
+  line-height: 28px;
+}
+
+.textWrapper p {
+  font-size: 0.9em;
+}
+
+.textWrapper strong {
+  display: block;
+  margin: 15px 0 0 0;
+  color: #3ecf8e;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 400px) {
+  .textWrapper {
+    font-size: 0.8em;
+  }
+
+  .textWrapper p {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 950px) {
+  .wrapper {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 1010px) {
+  .textWrapper {
+    font-size: 0.9em;
+  }
+}

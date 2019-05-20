@@ -1,0 +1,23 @@
+.postDateWrapper {
+  font-size: 0.55em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #cccccc;
+  padding: 20px 30px;
+}
+
+.dateTextWrapper {
+  color: #3ecf8e;
+  display: flex;
+}
+
+.dateTextWrapper span {
+  color: #5e629c;
+  margin-left: 10px;
+}
+
+@media (min-width: 1050px) {
+  .postDateWrapper {
+    font-size: 0.65em;
+  }
+}
