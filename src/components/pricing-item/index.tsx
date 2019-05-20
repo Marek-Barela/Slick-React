@@ -6,11 +6,16 @@ import styles from "./index.module.css";
 interface Props {
   title: string;
   cost: string;
+  storage: string;
+  users: string;
+  GB: string;
+  features: string;
+  dashboard: string;
 }
 
 const PricingItem: FC<Props> = props => {
   const { wrapper, itemWrapper, price, list } = styles;
-  const { title, cost } = props;
+  const { title, cost, storage, users, GB, features, dashboard } = props;
   return (
     <div className={wrapper}>
       <div className={itemWrapper}>
@@ -18,11 +23,11 @@ const PricingItem: FC<Props> = props => {
         <span className={price}>{cost}</span>
         <ul className={list}>
           <ListItem text="Free Instalation" />
-          <ListItem text="500MB Storage" />
-          <ListItem text="Single User" />
-          <ListItem text="5 GB Bandwith" />
-          <ListItem text="Minimal Features" />
-          <ListItem text="No Dashboard" />
+          <ListItem text={storage} />
+          <ListItem text={users} />
+          <ListItem text={GB} />
+          <ListItem text={features} />
+          <ListItem text={dashboard} />
         </ul>
         <Button
           url="https://uideck.com/products/slick-free-bootstrap-template/"
