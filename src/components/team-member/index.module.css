@@ -1,0 +1,58 @@
+.wrapper {
+  width: 25%;
+  margin: 40px 0;
+}
+
+.memberWrapper {
+  margin: 15px;
+  border: 1px solid #cccccc;
+}
+
+.imageWrapper img {
+  max-width: 100%;
+}
+
+.descriptionWrapper {
+  position: relative;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 30px;
+}
+
+.descriptionWrapper h4 {
+  margin: 0;
+}
+
+.descriptionWrapper span {
+  color: #5e629c;
+  font-size: 0.75em;
+}
+
+.socialMedia {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: -25px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.socialMedia a {
+  color: #3ecf8e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  margin: 0 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.socialMedia a:hover {
+  background-color: #3ecf8e;
+  color: #ffffff;
+}
