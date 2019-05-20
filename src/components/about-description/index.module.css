@@ -13,8 +13,16 @@
 	margin-bottom: 25px;
 }
 
+.textContainer {
+	text-align: center;
+}
+
 .textContainer p {
 	margin-bottom: 25px;
+}
+
+.textContainer a {
+	margin: 0 auto;
 }
 
 @media (min-width: 950px) {
@@ -30,5 +38,10 @@
 	.textContainer {
 		width: 55%;
 		padding: 0 20px 0 70px;
+		text-align: left;
+	}
+
+	.textContainer a {
+		margin: 0;
 	}
 }
