@@ -1,0 +1,60 @@
+.wrapper {
+  width: 33.33%;
+}
+
+.postWrapper {
+  margin: 15px;
+  border: 1px solid #cccccc;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.4s, border 0.4s, transform 0.4s;
+}
+
+.postWrapper:hover {
+  border: 1px solid #3ecf8e;
+  box-shadow: 0 0 25px 0 rgba(95, 95, 95, 0.44);
+  transform: translateY(-3%);
+}
+
+.imageWrapper {
+  width: 100%;
+}
+
+.imageWrapper img {
+  max-width: 100%;
+}
+
+.textWrapper {
+  font-size: 0.9em;
+  padding: 30px;
+}
+
+.textWrapper h4 {
+  font-size: 1.1em;
+  line-height: 28px;
+}
+
+.textWrapper strong {
+  display: block;
+  margin: 15px 0 0 0;
+  color: #3ecf8e;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.postDateWrapper {
+  font-size: 0.7em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #cccccc;
+  padding: 20px 30px;
+}
+
+.dateTextWrapper {
+  color: #3ecf8e;
+  display: flex;
+}
+
+.dateTextWrapper span {
+  color: #5e629c;
+  margin-left: 10px;
+}
