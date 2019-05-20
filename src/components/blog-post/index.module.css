@@ -1,5 +1,6 @@
 .wrapper {
-  width: 33.33%;
+  width: 100%;
+  max-width: 355px;
 }
 
 .postWrapper {
@@ -15,6 +16,11 @@
   transform: translateY(-3%);
 }
 
+.postWrapper:hover h4 {
+  color: #3ecf8e;
+  transition: color 0.4s;
+}
+
 .imageWrapper {
   width: 100%;
 }
@@ -24,13 +30,17 @@
 }
 
 .textWrapper {
-  font-size: 0.9em;
+  font-size: 0.7em;
   padding: 30px;
 }
 
 .textWrapper h4 {
   font-size: 1.1em;
   line-height: 28px;
+}
+
+.textWrapper p {
+  font-size: 0.9em;
 }
 
 .textWrapper strong {
@@ -41,20 +51,24 @@
   text-transform: uppercase;
 }
 
-.postDateWrapper {
-  font-size: 0.7em;
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #cccccc;
-  padding: 20px 30px;
+@media (min-width: 400px) {
+  .textWrapper {
+    font-size: 0.8em;
+  }
+
+  .textWrapper p {
+    font-size: 0.8em;
+  }
 }
 
-.dateTextWrapper {
-  color: #3ecf8e;
-  display: flex;
+@media (min-width: 950px) {
+  .wrapper {
+    width: 33.33%;
+  }
 }
 
-.dateTextWrapper span {
-  color: #5e629c;
-  margin-left: 10px;
+@media (min-width: 1010px) {
+  .textWrapper {
+    font-size: 0.9em;
+  }
 }
