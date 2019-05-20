@@ -1,6 +1,6 @@
-import React from 'react';
-import NavigationDesktop from '../navigation-desktop';
-import NavigationMobile from '../navigation-mobile';
+import React from "react";
+import NavigationDesktop from "../navigation-desktop";
+import NavigationMobile from "../navigation-mobile";
 
 const Navigation: React.FC = () => {
   return (
@@ -9,6 +9,6 @@ const Navigation: React.FC = () => {
       <NavigationMobile />
     </nav>
   );
-}
+};
 
 export default Navigation;

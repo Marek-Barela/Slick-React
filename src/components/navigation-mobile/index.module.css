@@ -3,16 +3,16 @@
   position: absolute;
   top: 30px;
   right: 10%;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background-color: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 6px 20px;
   border-radius: 5px;
-  outline:  0;
+  outline: 0;
 }
 
 .list {
-  background: linear-gradient(95deg,#5533ff 40%,#25ddf5 100%);
+  background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
   font-size: 0.8em;
   position: absolute;
   display: flex;
@@ -41,7 +41,7 @@
 }
 
 .list li a {
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   display: block;
   padding: 8px;
@@ -55,7 +55,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   transition: width 0.3s;
 }
 
@@ -66,7 +66,7 @@
 .list li button {
   font-size: 0.9em;
   margin-top: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   display: flex;
   justify-content: center;
