@@ -1,9 +1,9 @@
 .wrapper {
-  width: 100%;
   margin-bottom: 25px;
 }
 
 .featureWrapper {
+  font-size: 0.9em;
   margin: 0 15px;
   border: 1px solid #cccccc;
   padding: 60px 24px;
@@ -13,30 +13,6 @@
   flex-direction: column;
   text-align: center;
   transition: all 0.5s;
-}
-
-.header {
-  margin: 10px 0;
-}
-
-.paragraph {
-  color: #5e629c;
-  margin: 0;
-  font-size: 0.77em;
-  line-height: 25px;
-}
-
-.circle {
-  font-size: 1.8em;
-  color: #3ecf8e;
-  height: 120px;
-  width: 120px;
-  border-radius: 100%;
-  background-color: #e3fff2;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .featureWrapper:hover {

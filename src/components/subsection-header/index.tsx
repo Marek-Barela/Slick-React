@@ -5,12 +5,12 @@ interface Props {
 	headerText: string;
 }
 
-const SectionHeader: FC<Props> = (props) => {
+const SubsectionHeader: FC<Props> = (props) => {
 	const { header } = styles;
 	const { headerText } = props;
 	return (
-		<h2 className={header}>{headerText}</h2>
+		<h4 className={header}>{headerText}</h4>
 	);
 };
 
-export default SectionHeader;
+export default SubsectionHeader;

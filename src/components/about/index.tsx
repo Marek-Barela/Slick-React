@@ -1,16 +1,15 @@
 import React from 'react';
+import SectionWrapper from '../section-wrapper';
 import AboutFeatures from '../about-features';
 import AboutDescription from '../about-description';
-import styles from './index.module.css';
 
 const About = () => {
-  const { wrapper } = styles;
   return (
     <section id="About">
-      <div className={wrapper}>
+      <SectionWrapper>
         <AboutFeatures />
         <AboutDescription />
-      </div>
+      </SectionWrapper>
     </section>
   )
 }
