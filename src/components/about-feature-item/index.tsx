@@ -1,6 +1,8 @@
 import React, { FC } from 'react';
+import RoundIconFeature from '../round-icon-feature';
+import SubsectionHeader from '../subsection-header';
+import Paragraph from '../paragraph';
 import styles from './index.module.css';
-import FontAwesome from '../font-awesome';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 interface Props {
@@ -10,18 +12,14 @@ interface Props {
 }
 
 const FeatureItem: FC<Props> = props => {
-  const { wrapper, featureWrapper, header, paragraph, circle } = styles;
+  const { wrapper, featureWrapper } = styles;
   const { icon, text, description } = props;
   return (
     <div className={wrapper}>
       <div className={featureWrapper}>
-        <div className={circle}>
-          <FontAwesome icon={icon} />
-        </div>
-        <h4 className={header}>{text}</h4>
-        <p className={paragraph}>
-          {description}
-        </p>
+        <RoundIconFeature icon={icon} />
+        <SubsectionHeader headerText={text} />
+        <Paragraph paragraphText={description} />
       </div>
     </div>
   )

@@ -1,0 +1,17 @@
+.header {
+  font-size: 1em;
+  color: #151948;
+  margin: 0 0 15px 0;
+}
+
+@media (min-width: 400px ) {
+  .header {
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 600px ) {
+  .header {
+    font-size: 1.7em;
+  }
+}
