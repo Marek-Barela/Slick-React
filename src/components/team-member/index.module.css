@@ -1,11 +1,20 @@
 .wrapper {
-  width: 25%;
-  margin: 40px 0;
+  width: 100%;
 }
 
 .memberWrapper {
-  margin: 15px;
+  margin: 15px auto;
   border: 1px solid #cccccc;
+  max-width: 260px;
+  transition: box-shadow 0.3s;
+}
+
+.memberWrapper:hover {
+  box-shadow: 0 0 25px 0 rgba(95, 95, 95, 0.24);
+}
+
+.imageWrapper {
+  width: 100%;
 }
 
 .imageWrapper img {
@@ -55,4 +64,20 @@
 .socialMedia a:hover {
   background-color: #3ecf8e;
   color: #ffffff;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+
+@media (min-width: 950px) {
+  .wrapper {
+    width: 25%;
+  }
+
+  .memberWrapper {
+    margin: 10px;
+  }
 }
