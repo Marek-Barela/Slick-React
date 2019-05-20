@@ -1,29 +1,27 @@
 import React, { FC } from 'react';
-import FontAwesome from '../font-awesome';
+import RoundIconFeature from '../round-icon-feature';
+import SubsectionHeader from '../subsection-header';
+import Paragraph from '../paragraph';
 import styles from './index.module.css';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 interface Props {
 	icon: IconProp;
+	header: string;
+	paragraph: string;
 }
 
 const ServicesItem: FC<Props> = props => {
-	const { wrapper, circle, textContainer } = styles;
-	const { icon } = props;
+	const { wrapper, textContainer } = styles;
+	const { icon, header } = props;
 	return (
 		<div className={wrapper}>
-			<div className={circle}>
-				<FontAwesome icon={icon} />
-			</div>
+			<RoundIconFeature icon={icon}/>
 			<div className={textContainer}>
-				<h3>
-					Easy to Customize
-				</h3>
-				<p>
-					Producing long lasting organic SEO results for
+				<SubsectionHeader headerText={header} />
+				<Paragraph paragraphText="Producing long lasting organic SEO results for
 					brand of different kinds for more than a decade,
-					we understand that’s your.
-				</p>
+					we understand that’s your."/>
 			</div>
 		</div>
 	);

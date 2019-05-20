@@ -3,4 +3,29 @@
   justify-content: center;
   align-items: center;
   width: 50%;
+  background-color: #FFFFFF;
+  padding: 30px 20px;
+  border: 1px solid #EDEDED;
+  transition: box-shadow 0.3s;
+}
+
+.wrapper [class*="round-icon-feature"] {
+  margin-bottom: 0;
+  border: 1px solid #3ecf8e;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.wrapper:hover {
+  box-shadow: 0 0 25px 0 rgba(95,95,95,.24);
+  z-index: 1;
+}
+
+.wrapper:hover [class*="round-icon-feature"] {
+  color: #FFFFFF;
+  background-color: #3ecf8e;
+}
+
+.textContainer {
+  width: 75%;
+  margin-left: 25px;
 }

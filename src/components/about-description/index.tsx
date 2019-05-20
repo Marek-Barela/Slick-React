@@ -7,7 +7,7 @@ import sectionImage from '../../images/business-img.png';
 
 
 const AboutDescription = () => {
-	const { wrapper, imageContainer, textContainer, button } = styles;
+	const { wrapper, imageContainer, textContainer } = styles;
 	return (
 		<div className={wrapper}>
 			<div className={imageContainer}>
