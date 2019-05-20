@@ -1,6 +1,6 @@
 .wrapper {
-  width: 33.33%;
-  margin: 50px 0;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .itemWrapper {
@@ -45,4 +45,11 @@
   font-size: 0.8em;
   color: #5e629c;
   margin-bottom: 14px;
+}
+
+@media (min-width: 900px) {
+  .wrapper {
+    width: 33.33%;
+    margin: 50px 0;
+  }
 }
