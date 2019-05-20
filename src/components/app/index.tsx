@@ -4,6 +4,7 @@ import Hero from "../hero";
 import About from "../about";
 import Services from "../services";
 import Pricing from "../pricing";
+import Team from "../team";
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <About />
       <Services />
       <Pricing />
+      <Team />
     </Layout>
   );
 };
