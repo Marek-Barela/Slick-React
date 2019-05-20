@@ -7,7 +7,7 @@ import ServiceContainer from '../services-container';
 import styles from './index.module.css';
 
 const Services = () => {
-	const { container, wrapper } = styles;
+	const { container } = styles;
 	return (
 		<section id="Services" className={container}>
 			<SectionWrapper>
