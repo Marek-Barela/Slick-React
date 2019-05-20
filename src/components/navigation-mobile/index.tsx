@@ -1,23 +1,23 @@
-import React, { PureComponent } from 'react';
-import NavigationElement from '../navigation-element';
-import NavigationButton from '../navigation-button';
-import styles from './index.module.css';
+import React, { PureComponent } from "react";
+import NavigationElement from "../navigation-element";
+import NavigationButton from "../navigation-button";
+import styles from "./index.module.css";
 
 class NavigationDesktop extends PureComponent {
   state = {
     navIsOpen: false
-  }
+  };
 
   switchNavigation = () => {
     this.setState({
       navIsOpen: !this.state.navIsOpen
-    })
-  }
+    });
+  };
 
   closeNavigation() {
     this.setState({
       navIsOpen: false
-    })
+    });
   }
 
   render() {
@@ -26,10 +26,7 @@ class NavigationDesktop extends PureComponent {
     const listStyling = navIsOpen ? `${list} ${listVisible}` : list;
     return (
       <>
-        <button
-          onClick={() => this.switchNavigation()}
-          className={button}
-        >
+        <button onClick={() => this.switchNavigation()} className={button}>
           &#9776;
         </button>
         <ul className={listStyling}>
@@ -46,11 +43,6 @@ class NavigationDesktop extends PureComponent {
           <NavigationElement
             to="/#Services"
             text="Services"
-            handleClick={() => this.closeNavigation()}
-          />
-          <NavigationElement
-            to="/#Showcase"
-            text="Showcase"
             handleClick={() => this.closeNavigation()}
           />
           <NavigationElement

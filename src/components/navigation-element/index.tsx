@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface Props {
   to: string;
@@ -6,14 +6,16 @@ interface Props {
   handleClick?: () => void;
 }
 
-const NavigationItem: React.FC<Props> = ({ to, text, handleClick = () => { } }) => {
+const NavigationItem: React.FC<Props> = ({
+  to,
+  text,
+  handleClick = () => {}
+}) => {
   return (
     <li onClick={handleClick}>
-      <a href={to}>
-        {text}
-      </a>
+      <a href={to}>{text}</a>
     </li>
   );
-}
+};
 
 export default NavigationItem;

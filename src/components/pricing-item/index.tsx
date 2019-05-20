@@ -31,7 +31,7 @@ const PricingItem: FC<Props> = props => {
         </ul>
         <Button
           url="https://uideck.com/products/slick-free-bootstrap-template/"
-          btnText="Purchuase"
+          btnText="Purchase"
         />
       </div>
     </div>

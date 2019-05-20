@@ -5,9 +5,9 @@
   flex-direction: column;
   text-align: center;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 30px 0;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   transition: box-shadow 0.3s;
 }
 
@@ -17,12 +17,12 @@
 }
 
 .wrapper:hover {
-  box-shadow: 0 0 25px 0 rgba(95,95,95,.24);
+  box-shadow: 0 0 25px 0 rgba(95, 95, 95, 0.24);
   z-index: 1;
 }
 
 .wrapper:hover [class*="round-icon-feature"] {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #3ecf8e;
 }
 

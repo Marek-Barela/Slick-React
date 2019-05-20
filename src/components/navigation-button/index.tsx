@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 interface Props {
   to: string;
   handleClick?: () => void;
 }
 
-const NavigationButton: React.FC<Props> = ({ to, handleClick = () => { } }) => {
+const NavigationButton: React.FC<Props> = ({ to, handleClick = () => {} }) => {
   return (
     <li onClick={handleClick}>
       <button>
@@ -15,6 +15,6 @@ const NavigationButton: React.FC<Props> = ({ to, handleClick = () => { } }) => {
       </button>
     </li>
   );
-}
+};
 
 export default NavigationButton;

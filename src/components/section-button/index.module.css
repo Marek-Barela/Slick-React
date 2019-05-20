@@ -1,24 +1,24 @@
 .button {
-	font-size: 0.7em;
-	display: block;
-	font-weight: bold;
-	width: 160px;
-	height: 50px;
-	color: #ffffff;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 0;
-	margin: 0;
-	background-color: #3ecf8e;
-	border-radius: 5px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	letter-spacing: 2px;
-	box-shadow: 0 8px 9px 0 rgba(96, 94, 94, .17);
-	transition: transform 0.3s;
+  font-size: 0.7em;
+  display: block;
+  font-weight: bold;
+  width: 160px;
+  height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  background-color: #3ecf8e;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  box-shadow: 0 8px 9px 0 rgba(96, 94, 94, 0.17);
+  transition: transform 0.3s;
 }
 
 .button:hover {
-	transform: translateY(-5%);
+  transform: translateY(-5%);
 }
