@@ -1,0 +1,18 @@
+.error {
+  color: red;
+}
+
+.input {
+  color: #5e629c;
+  font-size: 16px;
+  padding-left: 28px;
+  height: 52px;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  outline: 0;
+}
+
+.input:focus {
+  border: 1px solid #3ecf8e;
+  background-color: #e5fff3;
+}
