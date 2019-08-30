@@ -1,8 +1,16 @@
 .error {
-  color: red;
+  font-size: 0.7em;
+  color: #d9534f;
+}
+
+.inputContainer {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 30px;
 }
 
 .input {
+  width: 100%;
   color: #5e629c;
   font-size: 16px;
   padding-left: 28px;
@@ -15,4 +23,10 @@
 .input:focus {
   border: 1px solid #3ecf8e;
   background-color: #e5fff3;
+}
+
+@media (min-width: 550px) {
+  .inputContainer {
+    width: 50%;
+  }
 }

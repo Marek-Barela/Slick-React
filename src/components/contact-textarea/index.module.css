@@ -1,3 +1,14 @@
+.error {
+  font-size: 0.7em;
+  color: #d9534f;
+}
+
+.textareaContainer {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
 .textarea {
   width: 100%;
   min-height: 200px;

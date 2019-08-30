@@ -2,12 +2,12 @@ import React from "react";
 import styles from "./index.module.css";
 
 const ContactTextarea = ({ errorMessage, ...props }) => {
-  const { textarea, error } = styles;
+  const { textareaContainer, textarea, error } = styles;
   return (
-    <>
+    <div className={textareaContainer}>
       <textarea className={textarea} {...props} />
       {errorMessage && <span className={error}>{errorMessage}</span>}
-    </>
+    </div>
   );
 };
 
