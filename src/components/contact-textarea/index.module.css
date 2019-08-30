@@ -1,0 +1,28 @@
+.error {
+  font-size: 0.7em;
+  color: #d9534f;
+}
+
+.textareaContainer {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 200px;
+  color: #5e629c;
+  font-size: 16px;
+  padding: 20px 28px;
+  height: 52px;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  resize: none;
+  outline: 0;
+}
+
+.textarea:focus {
+  border: 1px solid #3ecf8e;
+  background-color: #e5fff3;
+}

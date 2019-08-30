@@ -1,0 +1,35 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imageContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  max-width: 100%;
+}
+
+@media (min-width: 950px) {
+  .formContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form {
+    width: 50%;
+  }
+}
