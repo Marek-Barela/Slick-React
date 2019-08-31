@@ -7,14 +7,17 @@ interface Props {
   handleClick?: () => void;
 }
 
-const NavigationItem: React.FC<Props> = ({
-  to,
-  text,
-  handleClick = () => {}
-}) => {
+const NavigationItem: React.FC<Props> = ({ to, text, handleClick }) => {
   return (
-    <li onClick={handleClick}>
-      <Link to={to} spy={true} smooth={true} offset={50} duration={500}>
+    <li>
+      <Link
+        to={to}
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        onClick={handleClick}
+      >
         {text}
       </Link>
     </li>

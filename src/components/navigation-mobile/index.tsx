@@ -31,37 +31,37 @@ class NavigationDesktop extends PureComponent {
         </button>
         <ul className={listStyling}>
           <NavigationElement
-            to="/#Home"
+            to="Home"
             text="Home"
             handleClick={() => this.closeNavigation()}
           />
           <NavigationElement
-            to="/#About"
+            to="About"
             text="About"
             handleClick={() => this.closeNavigation()}
           />
           <NavigationElement
-            to="/#Services"
+            to="Services"
             text="Services"
             handleClick={() => this.closeNavigation()}
           />
           <NavigationElement
-            to="/#Pricing"
+            to="Pricing"
             text="Pricing"
             handleClick={() => this.closeNavigation()}
           />
           <NavigationElement
-            to="/#Team"
+            to="Team"
             text="Team"
             handleClick={() => this.closeNavigation()}
           />
           <NavigationElement
-            to="/#Blog"
+            to="Blog"
             text="Blog"
             handleClick={() => this.closeNavigation()}
           />
           <NavigationElement
-            to="/#Contact"
+            to="Contact"
             text="Contact"
             handleClick={() => this.closeNavigation()}
           />
