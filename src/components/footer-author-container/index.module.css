@@ -1,0 +1,16 @@
+.container {
+  background-color: #180e29;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.container span {
+  color: #3ecf8e;
+}
