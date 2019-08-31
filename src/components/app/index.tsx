@@ -7,6 +7,7 @@ import Pricing from "../pricing";
 import Team from "../team";
 import Blog from "../blog";
 import Contact from "../contact";
+import Footer from "../footer";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <Team />
       <Blog />
       <Contact />
+      <Footer />
     </Layout>
   );
 };
