@@ -12,6 +12,8 @@
 
 .list li {
   margin-right: 25px;
+  user-select: none;
+  cursor: pointer;
 }
 
 .list a {

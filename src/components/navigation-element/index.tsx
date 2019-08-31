@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 interface Props {
   to: string;
@@ -13,7 +14,9 @@ const NavigationItem: React.FC<Props> = ({
 }) => {
   return (
     <li onClick={handleClick}>
-      <a href={to}>{text}</a>
+      <Link to={to} spy={true} smooth={true} offset={50} duration={500}>
+        {text}
+      </Link>
     </li>
   );
 };

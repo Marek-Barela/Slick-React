@@ -7,13 +7,13 @@ const NavigationDesktop: React.FC = () => {
   const { list } = styles;
   return (
     <ul className={list}>
-      <NavigationElement to="/#Home" text="Home" />
-      <NavigationElement to="/#About" text="About" />
-      <NavigationElement to="/#Services" text="Services" />
-      <NavigationElement to="/#Pricing" text="Pricing" />
-      <NavigationElement to="/#Team" text="Team" />
-      <NavigationElement to="/#Blog" text="Blog" />
-      <NavigationElement to="/#Contact" text="Contact" />
+      <NavigationElement to="Home" text="Home" />
+      <NavigationElement to="About" text="About" />
+      <NavigationElement to="Services" text="Services" />
+      <NavigationElement to="Pricing" text="Pricing" />
+      <NavigationElement to="Team" text="Team" />
+      <NavigationElement to="Blog" text="Blog" />
+      <NavigationElement to="Contact" text="Contact" />
       <NavigationButton to="https://uideck.com/products/slick-free-bootstrap-template/" />
     </ul>
   );
